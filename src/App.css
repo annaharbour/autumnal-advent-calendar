@@ -12,6 +12,7 @@ html {
 .App {
   /* set height to fill viewport */
   height: 100vh;
+  /* set background image, no repeat, covering the whole vh, centering image, fixing image, hiding any overflow outside the viewport */
   background-image: url('/public/img/backgrounds/september-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,11 +21,11 @@ html {
   overflow: hidden;
 }
 
+/* wrapping day items to a new row */
 .calendar {
   margin: 5rem;
   display: flex;
   flex-wrap: wrap;
- 
 }
 
 .day {
@@ -44,6 +45,19 @@ html {
   overflow: hidden;
 }
 
+@media screen and (max-width: 900px){
+  .day {
+    width: 8rem;
+    height: 9rem;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .day {
+    width: 7rem;
+    height: 8rem;
+  }
+}
 @media screen and (max-width: 600px) {
   html {
     background-size: cover;
@@ -56,7 +70,8 @@ html {
   }
 
   .day {
-    
+    width: 5rem;
+    height: 6rem;
   }
 
   
