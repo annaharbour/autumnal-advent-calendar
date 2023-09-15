@@ -43,7 +43,44 @@ html {
   background-size: cover;
   background-position: center center;
   overflow: hidden;
+  perspective: 1000px;
 }
+
+/* Add these styles to your CSS */
+
+
+.day .front,
+.day .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 5%;
+  box-shadow: 1rem 1rem 1rem rgb(152, 133, 123);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.5s;
+}
+
+.day .back {
+  transform: rotateY(180deg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.day.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.day.flipped .back {
+  transform: rotateY(0deg);
+}
+
 
 @media screen and (max-width: 900px){
   .day {
