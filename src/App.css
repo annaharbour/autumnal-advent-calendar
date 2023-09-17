@@ -11,14 +11,14 @@ html {
 
 .App {
   /* set height to fill viewport */
-  height: 100vh;
+  height: 200vh;
   /* set background image, no repeat, covering the whole vh, centering image, fixing image, hiding any overflow outside the viewport */
   background-image: url('/public/img/backgrounds/september-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* wrapping day items to a new row */
@@ -27,6 +27,22 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
+
+.month {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.month button {
+  margin: 0 1rem 0 1rem;
+  border: none;
+  background-color: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 
 .day {
   margin: 1rem;
@@ -42,8 +58,8 @@ html {
   background-image: url('/public/img/card-fronts/yellow-leaf.jpg');
   background-size: cover;
   background-position: center center;
-  overflow: hidden;
   perspective: 1000px;
+  cursor: pointer;
 }
 
 /* Add these styles to your CSS */
@@ -79,6 +95,13 @@ html {
 
 .day.flipped .back {
   transform: rotateY(0deg);
+}
+
+.date {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  color: #D4A90A;
 }
 
 

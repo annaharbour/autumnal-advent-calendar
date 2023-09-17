@@ -1,17 +1,17 @@
 // Days is an array of objects that we're going to map through
 
-export const days = [
+export const september = [
     {
         day: '22',
         date: "09/22",
-        image: '/img/september/acro-yoga-park.jpg',
-        event: 'Festival in the Park'
+        image: '/img/september/hogwarts-ticket.jpg',
+        event: 'Nebels Alley Night Market 5:30-9:30pm'
     },
     {
         day: '23',
         date: "09/23",
-        image: '/img/september/popcorn.jpg',
-        event: 'Festival in the Park'
+        image: '/img/september/acro-yoga-park.jpg',
+        event: 'Festival in the Park and First Day of Autumn!'
 
     },
     {
@@ -81,13 +81,13 @@ export const october = [
     {
         day: '4',
         date: "10/04",
-        image: '/img/october/cousin-it.jpg',
-        event: ''
+        image: '/img/october/autumn-park.jpg',
+        event: 'Crunchy fall leaves are the best'
     },
     {
         day: '5',
         date: "10/05",
-        image: '/img/october/ghostbusters-arlsey.jpg',
+        image: '/img/october/ghostbusters-arsley.jpg',
         event: 'Last Day for Ghostbusters and Zombieland at Arlsey Cinema'
     },
     {
@@ -105,8 +105,8 @@ export const october = [
     {
         day: '8',
         date: "10/08",
-        image: '/img/october/halloween-costume.jpg',
-        event: 'Pick a costume?'
+        image: '/img/october/jason-mask.jpg',
+        event: 'Get cozy with a sary movie'
     },
     {
         day: '9',
@@ -118,13 +118,13 @@ export const october = [
         day: '10',
         date: "10/10",
         image: '/img/october/candy.jpg',
-        event: ''
+        event: 'Resist the urge to buy candy early... you know what will happen.'
     },
     {
         day: '11',
         date: "10/11",
-        image: '/img/october/jason-mask.jpg',
-        event: 'Scary Movie'
+        image: '/img/october/halloween-costume.jpg',
+        event: `Do you know what you're going as for halloween?`
     },
     {
         day: '12',
@@ -141,32 +141,32 @@ export const october = [
     {
         day: '14',
         date: "10/14",
-        image: '/img/october/hogwarts-ticket.jpg',
-        event: 'Nebels Alley Night Market Harry Potter Theme'
+        image: '/img/october/hike.jpg',
+        event: 'Whitewater Center Boat Building Competition'
     },
     {
         day: '15',
         date: "10/15",
-        image: '/img/october/cousin-it.jpg',
-        event: 'Spooky Movie night?'
+        image: '/img/october/uncle-fester.jpg',
+        event: 'We Gladly feast on those who would subdue us'
     },
     {
         day: '16',
         date: "10/16",
         image: '/img/october/halloween-decorations.jpg',
-        event: ''
+        event: 'Go for a drive and check out the decorations'
     },
     {
         day: '17',
         date: "10/17",
         image: '/img/october/harry-potter-train.jpg',
-        event: 'Harry Potter Movie Night?'
+        event: 'If you start now you can finish all the Harry Potter movies before Halloween'
     },
     {
         day: '18',
         date: "10/18",
         image: '/img/october/halloween-macaroons.jpg',
-        event: 'Check out Amelies Fall Menu'
+        event: 'Check out Amelies Fall Macaroons'
     },
     {
         day: '19',
@@ -177,7 +177,7 @@ export const october = [
     {
         day: '20',
         date: "10/20",
-        image: '/img/october/ .jpg',
+        image: '/img/october/popcorn.jpg',
         event: 'Scream and Halloween Playing at Arsley Cinema from 20-26th'
     },
     {
@@ -202,13 +202,13 @@ export const october = [
         day: '24',
         date: "10/24",
         image: '/img/october/black-cat.jpg',
-        event: ''
+        event: 'Bad Luck'
     },
     {
         day: '25',
         date: "10/25",
         image: '/img/october/cousin-it.jpg',
-        event: ''
+        event: 'It Girl'
     },
     {
         day: '26',
@@ -220,19 +220,19 @@ export const october = [
         day: '27',
         date: "10/27",
         image: '/img/october/apple-cider.jpg',
-        event: 'Make your dish or drink for the party!'
+        event: 'Time to brew something spooktacular!'
     },
     {
         day: '28',
         date: "10/28",
         image: '/img/october/halloween-string-lights.jpg',
-        event: `Sophia's Halloween Party`
+        event: `Halloween Parties are Booming`
     },
     {
         day: '29',
         date: "10/29",
         image: '/img/october/dog-ghost.jpg',
-        event: ''
+        event: 'Hair of the Dog?'
     },
     {
         day: '30',
