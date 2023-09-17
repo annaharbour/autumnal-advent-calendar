@@ -11,7 +11,8 @@ function Day({day}){
   const flipCard = () => {
     setIsFlipped(!isFlipped);
     // event handler to automatically open the pop-up when the card is flipped
-    setIsPopupOpen(true);
+    if(!isFlipped){
+    setIsPopupOpen(true);}
   }
 
   const closePopup = () => {
