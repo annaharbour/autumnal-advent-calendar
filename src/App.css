@@ -37,9 +37,12 @@ html {
 
 /* wrapping day items to a new row */
 .calendar {
-  margin: 5rem;
+  /* margin: 5rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
 }
 
 .month {
@@ -190,35 +193,23 @@ html {
   font-size: 1rem;
 }
 
-@media screen and (max-width: 900px){
-  .day {
-    width: 8rem;
-    height: 9rem;
-  }
-}
-
 @media screen and (max-width: 800px){
-  .day {
-    width: 7rem;
-    height: 8rem;
-  }
-}
-@media screen and (max-width: 600px) {
-  html {
-    background-size: cover;
-    min-height: 100%;
-    width: auto;
-  }
-
   .calendar {
-    margin: 1rem;
+    
+    margin: 0;
   }
+
 
   .day {
-    width: 5rem;
-    height: 6rem;
-  }
 
+
+     padding: 1rem;
+     width: .5rem;
+     padding: 0;
+     margin: 0;
   
-  
+
+  }
 }
+  
+  
