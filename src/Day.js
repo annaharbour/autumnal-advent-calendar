@@ -27,7 +27,7 @@ function Day({day}){
     <div>
     <div className={`day ${isFlipped? 'flipped' : ''}`} onClick={flipCard}>
       <div className='front'>
-        <span className='date'>{date}</span>
+        <span className='date'>{day.day}</span>
       </div>
       <div className='back' style={{backgroundImage: `url(${image})`}}>
       </div>
