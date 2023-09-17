@@ -9,7 +9,7 @@ html {
   
 }
 
-.App {
+.background {
   /* set height to fill viewport */
   height: 200vh;
   /* set background image, no repeat, covering the whole vh, centering image, fixing image, hiding any overflow outside the viewport */
@@ -18,7 +18,21 @@ html {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  /* overflow: hidden; */
+  overflow: hidden; 
+}
+
+.background-november {
+  height: 200vh;
+  background-image: url('/public/img/backgrounds/november-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  overflow: hidden; 
+}
+
+.front-october {
+  background-image: url('/public/img/card-fronts/spider.jpg');
 }
 
 /* wrapping day items to a new row */
@@ -32,7 +46,10 @@ html {
   display: flex;
   position: relative;
   justify-content: center;
-  margin: 1rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #EA8B37;
+
 }
 
 .month button {
@@ -41,8 +58,12 @@ html {
   background-color: transparent;
   font-size: 2rem;
   cursor: pointer;
+  color: #EA8B37
 }
 
+.disabled  {
+  opacity: 0.5
+}
 
 .day {
   margin: 1rem;
@@ -53,17 +74,16 @@ html {
   width: 10rem;
   height: 11rem;
   border-radius: 5%;
-  box-shadow: 1rem 1rem 1rem rgb(152,133,123);
-  background-color: #efefef;
-  background-image: url('/public/img/card-fronts/yellow-leaf.jpg');
+  background-color: transparent;
   background-size: cover;
   background-position: center center;
   perspective: 1000px;
   cursor: pointer;
 }
 
-/* Add these styles to your CSS */
-
+.day .front {
+  background-image: url('/public/img/card-fronts/yellow-leaf.jpg');
+}
 
 .day .front,
 .day .back {
@@ -80,7 +100,7 @@ html {
   background-position: center center;
   overflow: hidden;
   backface-visibility: hidden;
-  transition: transform 0.5s;
+  transition: transform 0.5s ease;
 }
 
 .day .back {
@@ -104,6 +124,71 @@ html {
   color: #D4A90A;
 }
 
+/* Popup */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(222,172,111, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-content {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.close-button {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.popup-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  width: 20rem;
+  height: 22rem;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center center;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.popup-details {
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  background-color: rgb(222,172,111);
+  padding: 1.5rem;
+  margin-top: -1rem;
+}
+
+.popup-details h2 {
+  font-size: 1.5rem;
+}
+
+.popup-details p {
+  font-size: 1rem;
+}
 
 @media screen and (max-width: 900px){
   .day {
