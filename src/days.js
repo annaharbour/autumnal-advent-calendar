@@ -244,15 +244,16 @@ export const october = [
         date: "2023-10-18",
         image: '/img/october/halloween-macaroons.jpg',
         event: 'Check out Amelies Fall Macaroons',
-        weekday: 'Wednesday'
+        weekday: 'Wednesday',
+        link: 'https://www.instagram.com/p/CxVo9UNuC55/?img_index=5'
     },
     {
         day: '10/19',
         date: "2023-10-19",
         image: '/img/october/cauldron.jpg',
-        event: 'Camp Northend Crossroads Cinema: Hocus Pocus 7:30-9:30PM',
+        event: 'Camp Northend Crossroads Cinema: Practical Magic',
         weekday: 'Thursday',
-        link: 'https://camp.nc/events/crossroads-cinema-hocus-pocus/'
+        link: 'https://camp.nc/events/crossroads-cinema-practical-magic/'
     },
     {
         day: '10/20',
@@ -281,8 +282,9 @@ export const october = [
         day: '10/23',
         date: "2023-10-23",
         image: '/img/october/headless-barista.jpg',
-        event: 'Mondays deserve coffee',
-        weekday: 'Monday'
+        event: 'Make sure to check out the Great Elizabeth Pumpkin Wall',
+        weekday: 'Monday',
+        link: 'https://www.charlotteonthecheap.com/great-elizabeth-pumpkin-wall/'
     },
     {
         day: '10/24',
@@ -370,156 +372,224 @@ export const november = [
     {
         day: '11/1',
         date: "2023-11-01",
-        weekday: 'Wednesday'
+        weekday: 'Wednesday',
+        event: 'Camp North End Market',
+        image: '/img/november/fall-flowers.jpg',
+        link: 'https://camp.nc/tenant/north-end-farmers-market/'
     },
     {
         day: '11/2',
         date: "2023-11-02",
-        weekday: 'Thursday'
+        weekday: 'Thursday',
+        event: '',
+        image: '/img/november/journal-leaves.jpg'
     },
     {
         day: '11/3',
         date: "2023-11-03",
-        weekday: 'Friday'
+        weekday: 'Friday',
+        image: '/img/november/pumpkin-soup.jpg'
+
     },
     {
         day: '11/4',
         date: "2023-11-04",
-        weekday: 'Saturday'
+        weekday: 'Saturday',
+        event: 'Charlotte Marathon',
+        link: 'https://thecharlottemarathon.com/',
+        image: '/img/november/charlotte-runner.jpg'
     },
     {
         day: '11/5',
         date: "2023-11-05",
-        weekday: 'Sunday'
+        weekday: 'Sunday',
+        event: 'Daylight Saving Time! Time to fall back an hour',
+        link: 'https://www.timeanddate.com/time/change/usa',
+        image: '/img/november/clocks.jpg'
     },
     {
         day: '11/6',
         date: '2023-11-06',
-        weekday: 'Monday'
+        weekday: 'Monday',
+        event: 'Mondays deserve coffee',
+        image: '/img/november/coffee-leaf.jpg'
     },
     {
         day: '11/7',
         date: "2023-11-07",
         weekday: 'Tuesday',
         event: 'Starbucks Drops Festive Beverages and Red Holiday Cups',
-        link: 'https://www.starbucks.com/ways-to-order/pickup/?gclid=CjwKCAjw6p-oBhAYEiwAgg2Pgl9qq-URyqIiFvJPhDDJTAl8vwqioNrC2K6yDcydFYPvrYJragyHHBoCyJkQAvD_BwE'
+        link: 'https://www.starbucks.com/ways-to-order/pickup/?gclid=CjwKCAjw6p-oBhAYEiwAgg2Pgl9qq-URyqIiFvJPhDDJTAl8vwqioNrC2K6yDcydFYPvrYJragyHHBoCyJkQAvD_BwE',
+        image: '/img/november/starbucks-holiday.jpg'
     },
     {
         day: '11/8',
         date: "2023-11-08",
-        weekday: 'Wednesday'
+        weekday: 'Wednesday',
+        event: `Women's Night at Coyote Joes`,
+        image: '/img/november/cowboy-boots.jpg'
     },
     {
         day: '11/9',
         date: "2023-11-09",
-        weekday: 'Thursday'
+        weekday: 'Thursday',
+        event: 'Southern Christmas Show: November 8th-19th',
+        link: 'https://www.southernchristmasshow.com/',
+        image: '/img/november/christmas-ornaments.jpg'
     },
     {
         day: '11/10',
         date: "2023-11-10",
-        weekday: 'Friday'
+        weekday: 'Friday',
+        image: '/img/november/volleyball-fall.jpg'
+        
     },
     {
         day: '11/11',
         date: "2023-11-11",
-        weekday: 'Saturday'
+        weekday: 'Saturday',
+        event: 'Do your shopping at Atherton Farmers Market 9AM-1PM or Nebels Night Market 4-9PM',
+        link: 'https://athertonsouthend.com/retailers/mill/atherton-market/',
+        image: '/img/november/cranberries.jpg'
     },
     {
         day: '11/12',
         date: "2023-11-12",
-        weekday: 'Sunday'
+        weekday: 'Sunday',
+        event: 'Carolina Renaissance Festival Here until the 19th',
+        link: 'https://www.carolina.renfestinfo.com/buy-tickets',
+        image: '/img/november/renaissance-dress.jpg',
+        
     },
     {
         day: '11/13',
         date: "2023-11-13",
-        weekday: 'Monday'
+        weekday: 'Monday',
+        event: 'Opening Mic Monday at the Evening Muse',
+        link: 'https://www.eveningmuse.com/',
+        image: '/img/november/guitar.jpg'
     },
     {
         day: '11/14',
         date: "2023-11-14",
-        weekday: 'Tuesday'
+        weekday: 'Tuesday',
+        image: '/img/november/leaves.jpg'
     },
     {
         day: '11/15',
         date: "2023-11-15",
-        weekday: 'Wednesday'
+        weekday: 'Wednesday',
+        event: 'Farmers Market at Camp Northend',
+        image: '/img/november/mushrooms.jpg',
+        link: 'https://camp.nc/tenant/north-end-farmers-market/'
     },
     {
         day: '11/16',
         date: "2023-11-16",
-        weekday: 'Thursday'
+        weekday: 'Thursday',
+        event: 'Trivia Nights Everywhere',
+        image: '/img/november/trivia-night.jpg'
         
     },
     {
         day: '11/17',
         date: "2023-11-17",
-        weekday: 'Friday'
+        weekday: 'Friday',
+        image: '/img/november/asheville.jpg'
     },
     {
         day: '11/18',
         date: "2023-11-18",
-        weekday: 'Saturday'
+        weekday: 'Saturday',
+        event: 'Friendsgiving',
+        link: 'https://www.delish.com/food-news/a33957858/what-is-friendsgiving/',
+        image: '/img/november/cranberry-cocktail.jpg'
     },
     {
         day: '11/19',
         date: "2023-11-19",
-        weekday: 'Sunday'
+        weekday: 'Sunday',
+        event: 'Last day of Renaissance Festival',
+        link: 'https://www.carolina.renfestinfo.com/buy-tickets',
+        image: '/img/november/joker.jpg'
     },
     {
         day: '11/20',
         date: "2023-11-20",
-        weekday: 'Monday'
+        weekday: 'Monday',
+        image: '/img/november/book-coffee-beans.jpg'
+
     },
     {
         day: '11/21',
         date: "2023-11-21",
-        weekday: 'Tuesday'
+        event: 'Ice Skating and Lights Open at US National White Water Center',
+        weekday: 'Tuesday',
+        image: '/img/november/ice-skating.jpg'
     },
     {
         day: '11/22',
         date: "2023-11-22",
-        event: 'Ice Skating and Lights Open at US National White Water Center',
-        weekday: 'Wednesday'
+        weekday: 'Wednesday',
+        event: 'Novant Health Thanksgiving Eve Parade',
+        image: '/img/november/parade.jpg'
     },
     {
         day: '11/23',
-        date: "2023-11-23",
-        weekday: 'Thursday'
+        date: "2023-11-22",
+        weekday: 'Thursday',
+        event: 'Happy Thanksgiving!',
+        image: '/img/november/thanksgiving-table.jpg'
     },
     {
         day: '11/24',
         date: "2023-11-24",
-        weekday: 'Friday'
+        weekday: 'Friday',
+        event: 'Black Friday',
+        image: '/img/november/black-friday.jpg'
     },
     {
         day: '11/25',
         date: "2023-11-25",
-        weekday: 'Saturday'
+        weekday: 'Saturday',
+        event: 'Leftover turkey sandwich time?',
+        image: '/img/november/turkey-sandwich.jpg'
     },
     {
         day: '11/26',
         date: "2023-11-26",
-        weekday: 'Sunday'
+        weekday: 'Sunday',
+        event: 'Let the holiday traveler frenzy ensue',
+        image: '/img/november/snowy-road.jpg'
     },
     {
         day: '11/27',
         date: "2023-11-27",
-        weekday: 'Monday'
+        weekday: 'Monday',
+        event: 'Cyber Monday',
+        image: '/img/november/cyber-monday.jpg'
     },
     {
         day: '11/28',
         date: "2023-11-28",
-        weekday: 'Tuesday'
+        weekday: 'Tuesday',
+        event: 'Officially acceptable to listen to christmas music',
+        link: 'https://open.spotify.com/playlist/78AqbJGMurc3yd9itr8aA6',
+        image: '/img/november/christmas-dog.jpg'
     },
     {
         day: '11/29',
         date: "2023-11-29",
-        weekday: 'Wednesday'
+        weekday: 'Wednesday',
+        image: '/img/november/christmas-planner.jpg'
     },
     {
         day: '11/30',
         date: "2023-11-30",
-        weekday: 'Thursday'
+        weekday: 'Thursday',
+        image: '/img/november/november-calendar.jpg',
+        event: 'Tis the season'
+        
     }
 ]
 
