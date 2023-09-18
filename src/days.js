@@ -634,7 +634,7 @@ export const december = [
         
     },
     {
-        day: '1',
+        day: '12/01',
         date: "12/01",
         weekday: 'Friday',
         image: '/img/december/christmas-market.jpg',
@@ -642,7 +642,7 @@ export const december = [
         link: 'https://www.milb.com/charlotte-knights/ballpark/christmas'
     },
     {
-        day: '2',
+        day: '12/02',
         date: "12/02",
         weekday: 'Saturday',
         image: '/img/december/globe-tree.jpg',
@@ -650,7 +650,7 @@ export const december = [
         link: 'https://www.milb.com/charlotte-knights/ballpark/christmas'
     },
     {
-        day: '3',
+        day: '12/03',
         date: "12/03",
         weekday: 'Sunday',
         event: 'Time to get a Christmas Tree',
@@ -658,34 +658,34 @@ export const december = [
         link: 'https://www.trees.com/christmas-trees/farms-in-charlotte-nc'
     },
     {
-        day: '4',
+        day: '12/04',
         date: "12/04",
         weekday: 'Monday',
         image: '/img/december/hotcocoa.jpg',
         event: 'Have a warm drink'
     },
     {
-        day: '5',
+        day: '12/05',
         date: "12/05",
         weekday: 'Tuesday',
         image: '/img/december/gingerbread-house.jpg',
     },
     {
-        day: '6',
+        day: '12/06',
         date: "12/06",
         weekday: 'Wednesday',
         image: '/img/december/christmas-ornament.jpg',
         event: 'Time to get out the decorations'
     },
     {
-        day: '7',
+        day: '12/07',
         date: "12/07",
         weekday: 'Thursday',
         image: '/img/december/hannukah.jpg',
         event: 'Hanukkah Begins'
     },
     {
-        day: '8',
+        day: '12/8',
         date: "12/08",
         weekday: 'Friday',
         image: '/img/december/the-nutcracker.jpg',
@@ -693,7 +693,7 @@ export const december = [
         link: 'https://www.eventticketscenter.com/the-nutcracker-charlotte-tickets/787681/e?gclid=CjwKCAjw6p-oBhAYEiwAgg2Pgqm8_jQTmUhWWPM_HyUmBlu33nkBqn6mYmGbDE4NEP0ec-_IZY1deRoCDegQAvD_BwE'
     },
     {
-        day: '9',
+        day: '12/09',
         date: "12/09",
         weekday: 'Saturday',
         image: '/img/december/jingle-bell-run.jpg',
@@ -701,46 +701,46 @@ export const december = [
         link: 'https://runsignup.com/Race/NC/Charlotte/JingleBellRunCharlotte'
     },
     {
-        day: '10',
+        day: '12/10',
         date: "12/10",
         weekday: 'Sunday',
         image: '/img/december/christmas-present.jpg',
     },
     {
-        day: '11',
+        day: '12/11',
         date: "12/11",
         weekday: 'Monday',
         image: '/img/december/gingerbread.jpg',
     },
     {
-        day: '12',
+        day: '12/12',
         date: "12/12",
         weekday: 'Tuesday',
         image: '/img/december/eggnog.jpg',
         link: 'https://www.foodnetwork.com/recipes/alton-brown/eggnog-recipe2-2013745'
     },
     {
-        day: '13',
+        day: '12/13',
         date: "12/13",
         weekday: 'Wednesday',
         image: '/img/december/christmas-presents.jpg',
     },
     {
-        day: '14',
+        day: '12/14',
         date: "12/14",
         weekday: 'Thursday',
         image: '/img/december/christmas-macaroons.jpg',
         event: 'Check out Amelies holiday macaroons'
     },
     {
-        day: '15',
+        day: '12/15',
         date: "12/15",
         weekday: 'Friday',
         image: '/img/december/reindeer-dog.jpg',
         event: 'Hannukah Ends'
     },
     {
-        day: '16',
+        day: '12/16',
         date: "12/16",
         weekday: 'Saturday',
         image: '/img/december/xmas-market.jpg',
@@ -748,13 +748,13 @@ export const december = [
         link: 'https://camp.nc/events/mistletoe-market-2022/'
     },
     {
-        day: '17',
+        day: '12/17',
         date: "12/17",
         weekday: 'Sunday',
         image: '/img/december/present-wrapped.jpg',
     },
     {
-        day: '18',
+        day: '12/18',
         date: "12/18",
         weekday: 'Monday',
         image: '/img/december/santa-letter.jpg',
@@ -762,7 +762,7 @@ export const december = [
         link: 'https://www.milb.com/charlotte-knights/ballpark/christmas'
     },
     {
-        day: '19',
+        day: '12/19',
         date: "12/19",
         weekday: 'Tuesday',
         image: '/img/december/christmas-cards.jpg',
@@ -770,25 +770,25 @@ export const december = [
         
     },
     {
-        day: '20',
+        day: '12/20',
         date: "12/20",
         weekday: 'Wednesday',
         image: '/img/december/christmas-chocolate.jpg',
     },
     {
-        day: '21',
+        day: '12/21',
         date: "12/21",
         weekday: 'Thursday',
         image: '/img/december/christmas-cheeseboard.jpg',
     },
     {
-        day: '22',
+        day: '12/22',
         date: "12/22",
         weekday: 'Friday',
         image: '/img/december/gingerbread-house.jpg',
     },
     {
-        day: '23',
+        day: '12/23',
         date: "12/23",
         weekday: 'Saturday',
         image: '/img/december/christmas-cup.jpg',
@@ -797,21 +797,21 @@ export const december = [
         
     },
     {
-        day: '24',
+        day: '12/24',
         date: "12/24",
         weekday: 'Sunday',
         image: '/img/december/christmas-wreath.jpg',
         event: 'Christmas Eve'
     },
     {
-        day: '25',
+        day: '12/25',
         date: "12/25",
         weekday: 'Monday',
         image: '/img/december/santa.jpg',
         event: 'Christmas Day'
     },
     {
-        day: '26',
+        day: '12/26',
         date: "12/26",
         weekday: 'Tuesday',
         image: '/img/december/charlotte-snowy.jpg',
@@ -825,26 +825,26 @@ export const december = [
         
     },
     {
-        day: '28',
+        day: '12/28',
         date: "12/28",
         weekday: 'Thursday',
         image: '/img/december/ice-skates.jpg',
     },
     {
-        day: '29',
+        day: '12/29',
         date: "12/29",
         weekday: 'Friday',
         image: '/img/december/all-is-well.jpg'
     },
     {
-        day: '30',
+        day: '12/30',
         date: "12/30",
         weekday: 'Saturday',
         image: '/img/december/mulled-wine.jpg',
 
     },
     {
-        day: '31',
+        day: '12/31',
         date: "12/31",
         weekday: 'Sunday',
         image: '/img/december/new-year.jpg',
