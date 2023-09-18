@@ -629,30 +629,33 @@ export const december = [
         date: "2023-11-30",
         weekday: 'Thursday',
         image: '/img/november/snow-tubing.jpg',
-        event: 'Light the Knights 5-10PM'
+        event: 'Light the Knights 5-10PM',
+        link: 'https://www.milb.com/charlotte-knights/ballpark/christmas'
         
     },
     {
         day: '1',
         date: "12/01",
         weekday: 'Friday',
-        image: '/img/december/charlotte-snowy.jpg',
-        event: 'Light the Knights 5-10PM Thursdays and Fridays'
+        image: '/img/december/christmas-market.jpg',
+        event: 'Light the Knights 5-10PM Thursdays and Fridays',
+        link: 'https://www.milb.com/charlotte-knights/ballpark/christmas'
     },
     {
         day: '2',
         date: "12/02",
         weekday: 'Saturday',
         image: '/img/december/globe-tree.jpg',
-        event: 'Light the Knights 12-10PM on Saturdays'
+        event: 'Light the Knights 12-10PM on Saturdays',
+        link: 'https://www.milb.com/charlotte-knights/ballpark/christmas'
     },
     {
         day: '3',
         date: "12/03",
         weekday: 'Sunday',
-        image: '/img/december/christmas-present.jpg',
-        event: 'Mistletoe Market at Camp Northend every Sunday',
-        link: 'https://camp.nc/events/mistletoe-market-2022/'
+        event: 'Time to get a Christmas Tree',
+        image: '/img/december/tree-farm.jpg',
+        link: 'https://www.trees.com/christmas-trees/farms-in-charlotte-nc'
     },
     {
         day: '4',
@@ -671,7 +674,8 @@ export const december = [
         day: '6',
         date: "12/06",
         weekday: 'Wednesday',
-        image: '/img/december/eggnog.jpg',
+        image: '/img/december/christmas-ornament.jpg',
+        event: 'Time to get out the decorations'
     },
     {
         day: '7',
@@ -684,8 +688,9 @@ export const december = [
         day: '8',
         date: "12/08",
         weekday: 'Friday',
-        image: '/img/december/nutcracker.jpg',
-        event: 'Get your tickets for the Nutcracker at Belk Theatre'
+        image: '/img/december/the-nutcracker.jpg',
+        event: 'Get your tickets for the Nutcracker at Belk Theatre',
+        link: 'https://www.eventticketscenter.com/the-nutcracker-charlotte-tickets/787681/e?gclid=CjwKCAjw6p-oBhAYEiwAgg2Pgqm8_jQTmUhWWPM_HyUmBlu33nkBqn6mYmGbDE4NEP0ec-_IZY1deRoCDegQAvD_BwE'
     },
     {
         day: '9',
@@ -699,9 +704,7 @@ export const december = [
         day: '10',
         date: "12/10",
         weekday: 'Sunday',
-        event: 'Time to get a Christmas Tree',
-        image: '/img/december/tree-farm.jpg',
-        link: 'https://www.trees.com/christmas-trees/farms-in-charlotte-nc'
+        image: '/img/december/christmas-present.jpg',
     },
     {
         day: '11',
@@ -714,6 +717,7 @@ export const december = [
         date: "12/12",
         weekday: 'Tuesday',
         image: '/img/december/eggnog.jpg',
+        link: 'https://www.foodnetwork.com/recipes/alton-brown/eggnog-recipe2-2013745'
     },
     {
         day: '13',
@@ -740,7 +744,8 @@ export const december = [
         date: "12/16",
         weekday: 'Saturday',
         image: '/img/december/xmas-market.jpg',
-        event: `MistleToe Market every Saturday in Camp North End`
+        event: `MistleToe Market every Saturday in Camp North End`,
+        link: 'https://camp.nc/events/mistletoe-market-2022/'
     },
     {
         day: '17',
@@ -787,6 +792,8 @@ export const december = [
         date: "12/23",
         weekday: 'Saturday',
         image: '/img/december/christmas-cup.jpg',
+        event: `MistleToe Market every Saturday in Camp North End`
+
         
     },
     {
@@ -834,6 +841,7 @@ export const december = [
         date: "12/30",
         weekday: 'Saturday',
         image: '/img/december/mulled-wine.jpg',
+
     },
     {
         day: '31',
