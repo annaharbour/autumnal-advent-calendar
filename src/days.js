@@ -5,34 +5,34 @@ export const september = [
         day: '9/17',
         date: "2023-09-17",
         image: '/img/september/hogwarts-ticket.jpg',
-        event: 'Nebels Alley Night Market 5:30-9:30pm',
+        event: 'Celebrate Octoberfest weekends in Sept-Oct at Olde Meck, Sugar Creek, and Gilde',
         weekday: 'Sunday'
     },
     {
         day: '9/18',
         date: "2023-09-18",
-        image: '/img/september/hogwarts-ticket.jpg',
-        event: 'Nebels Alley Night Market 5:30-9:30pm',
+        image: '/img/september/spiderman.jpg',
+        event: 'Marvel: Universe of Super Heroes will be at Discovery Place the rest of September',
         weekday: 'Monday'
     },
     {
         day: '9/19',
         date: "2023-09-19",
-        image: '/img/september/hogwarts-ticket.jpg',
-        event: 'Nebels Alley Night Market 5:30-9:30pm',
+        image: '/img/september/internationart.jpg',
+        event: 'Charlotte International Art Festival continues through October 8th',
         weekday: 'Tuesday'
     },
     {
         day: '9/20',
         date: "2023-09-20",
-        image: '/img/september/hogwarts-ticket.jpg',
-        event: 'Nebels Alley Night Market 5:30-9:30pm',
+        image: '/img/september/flannel.jpg',
+        event: 'Flannel is the new pink',
         weekday: 'Wednesday'
     },
     {
         day: '9/21',
         date: "2023-09-21",
-        image: '',
+        image: '/img/september/PSL.jpg',
         event: 'BOGO Fall Drinks at Starbucks',
         weekday: 'Thursday'
     },
@@ -145,13 +145,13 @@ export const october = [
         date: "2023-10-06",
         image: '/img/october/scary-clown.jpg',
         event: 'Scarowinds',
-        weekday: 'Friday'
+        weekday: 'Did I scare you?'
     },
     {
         day: '10/7',
         date: "2023-10-07",
         image: '/img/october/haunted-amusement-park.jpg',
-        event: 'Scarowinds',
+        event: 'Scarowinds 7pm-Midnight',
         weekday: 'Saturday'
     },
     {
@@ -193,7 +193,7 @@ export const october = [
         day: '10/13',
         date: "2023-10-13",
         image: '/img/october/friday-the-13th.jpg',
-        event: 'Friday the 13th',
+        event: 'Better watch out: Friday the 13th',
         weekday: 'Friday'
     },
     {
@@ -207,14 +207,14 @@ export const october = [
         day: '10/15',
         date: "2023-10-15",
         image: '/img/october/uncle-fester.jpg',
-        event: 'We Gladly feast on those who would subdue us',
+        event: `"We Gladly feast on those who would subdue us" - Adams Family Creed`,
         weekday: 'Sunday'
     },
     {
         day: '10/16',
         date: "2023-10-16",
         image: '/img/october/halloween-decorations.jpg',
-        event: 'Go for a drive and check out the decorations',
+        event: 'Go for a drive and check out the decorations - if you dare',
         weekday: 'Monday'
     },
     {
@@ -312,7 +312,7 @@ export const october = [
         day: '10/30',
         date: "2023-10-30",
         image: '/img/october/candy-corn.jpg',
-        event: 'Better buy candy',
+        event: 'Better buy candy now',
         weekday: 'Monday'
     },
     {

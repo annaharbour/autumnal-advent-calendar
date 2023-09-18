@@ -29,9 +29,7 @@ html {
   overflow: hidden; 
 }
 
-.front-october {
-  background-image: url('/public/img/card-fronts/spider.jpg');
-}
+
 
 /* wrapping day items to a new row */
 .calendar {
