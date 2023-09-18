@@ -13,7 +13,7 @@ html {
   
 }
 
-.background {
+.background-september {
   height: 200vh;
   background-image: url('/public/img/backgrounds/september-background.jpg');
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ html {
   overflow: hidden; 
 }
 
-.christmas-back {
+.background-december {
   height: 200vh;
   background-image: url('/public/img/backgrounds/christmas-back.jpg');
   background-repeat: no-repeat;

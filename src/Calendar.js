@@ -27,14 +27,17 @@ function Calendar() {
 
 
   // Conditionally set background class based on the current month
-  let backgroundClass = 'background'; // Default background class
-  let cardFront = 'front-image'; // Default card front class
+  let backgroundClass = ''; // Default background class
+  let cardFront = ''; // Default card front class
 
-  if (currentMonth === 'November') {
+  if(currentMonth ==='September' || currentMonth === 'October'){
+    backgroundClass = 'background-september';
+    cardFront = 'front-image';
+  } else if (currentMonth === 'November') {
     backgroundClass = 'background-november'; // November background
     cardFront = 'front-image'; // Card front for November
   } else if (currentMonth === 'December') {
-    backgroundClass = 'christmas-back'; // December background
+    backgroundClass = 'background-december'; // December background
     cardFront = 'present-card'; // Card front for December
   }  
 
