@@ -78,19 +78,14 @@ html {
   opacity: 0.5
 }
 
-.week {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
+
 
 .day-name {
-  font-family: 'Croissant One', cursive;
-  display: flex;
-justify-content: space-between;
-font-size: 1.5rem;
+  font-family: 'Croissant One', cursive; 
+  
+  font-size: 1.5rem;
+  margin: 0.5rem 35%; 
+  
 }
 
 .day {
