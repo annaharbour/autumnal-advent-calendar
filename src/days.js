@@ -4,23 +4,26 @@ export const september = [
     {
         day: '9/17',
         date: "2023-09-17",
-        image: '/img/september/hogwarts-ticket.jpg',
+        image: '/img/september/octoberfest.jpg',
         event: 'Celebrate Octoberfest weekends in Sept-Oct at Olde Meck, Sugar Creek, and Gilde',
-        weekday: 'Sunday'
+        weekday: 'Sunday',
+        link: 'https://www.charlotteonthecheap.com/oktoberfest-charlotte/'
     },
     {
         day: '9/18',
         date: "2023-09-18",
         image: '/img/september/spiderman.jpg',
         event: 'Marvel: Universe of Super Heroes will be at Discovery Place the rest of September',
-        weekday: 'Monday'
+        weekday: 'Monday',
+        link: 'https://discoveryplace.org/things-to-do/exhibitions/marvel-universe-of-super-heroes/'
     },
     {
         day: '9/19',
         date: "2023-09-19",
         image: '/img/september/internationart.jpg',
         event: 'Charlotte International Art Festival continues through October 8th',
-        weekday: 'Tuesday'
+        weekday: 'Tuesday',
+        link: 'https://www.charlotteartsfest.com/?gclid=CjwKCAjw6p-oBhAYEiwAgg2PglXGVbZBkyejtkGXz0PHrEqvX1t945fEXnoI_n9NNf0via86sO8CZBoCzkYQAvD_BwE'
     },
     {
         day: '9/20',
@@ -34,28 +37,32 @@ export const september = [
         date: "2023-09-21",
         image: '/img/september/PSL.jpg',
         event: 'BOGO Fall Drinks at Starbucks',
-        weekday: 'Thursday'
+        weekday: 'Thursday',
+        link: 'https://www.starbucks.com/ways-to-order/pickup/?gclid=CjwKCAjw6p-oBhAYEiwAgg2Pgl9qq-URyqIiFvJPhDDJTAl8vwqioNrC2K6yDcydFYPvrYJragyHHBoCyJkQAvD_BwE'
     },
     {
         day: '9/22',
         date: "2023-09-22",
         image: '/img/september/hogwarts-ticket.jpg',
         event: 'Nebels Alley Night Market 5:30-9:30pm',
-        weekday: 'Friday'
+        weekday: 'Friday',
+        link: 'https://www.facebook.com/events/1043142273371826?acontext=%7B%22event_action_history%22%3A[]%7D'
     },
     {
         day: '9/23',
         date: "2023-09-23",
         image: '/img/september/acro-yoga-park.jpg',
         event: 'Festival in the Park and First Day of Autumn!',
-        weekday: 'Saturday'
+        weekday: 'Saturday',
+        link: 'https://festivalinthepark.org/festival-in-the-park/park-layout/'
     },
     {
         day: '9/24',
         date: "2023-09-24",
         image: '/img/september/vintage-market.jpg',
         event: 'Optimist Hall Vintage Market 11am-8pm',
-        weekday: 'Sunday'
+        weekday: 'Sunday',
+        link: 'https://optimisthall.com/event/optimist-hall-x-charlotte-vintage-market/'
     },
     {
         day: '9/25',
@@ -68,36 +75,40 @@ export const september = [
         day: '9/26',
         date: "2023-09-26",
         image: '/img/september/fall-kitten.jpg',
-        event: '',
+        event: 'Apple picking season is coming to an end',
         weekday: 'Tuesday'
     },
     {
         day: '9/27',
         date: "2023-09-27",
         image: '/img/september/sunflower.jpg',
-        event: 'Sunflowers are in Season. Check out the market at Northend',
-        weekday: 'Wednesday'
+        event: 'Sunflowers are in Season. Check out the market at Northend 4-8pm',
+        weekday: 'Wednesday',
+        link: 'https://camp.nc/tenant/north-end-farmers-market/'
     },
     {
         day: '9/28',
         date: "2023-09-28",
         image: '/img/september/pumpkin-latte.jpg',
         event: 'Fall Drinks BOGO at Starbucks',
-        weekday: 'Thursday'
+        weekday: 'Thursday',
+        link: 'https://www.starbucks.com/ways-to-order/pickup/?gclid=CjwKCAjw6p-oBhAYEiwAgg2Pgl9qq-URyqIiFvJPhDDJTAl8vwqioNrC2K6yDcydFYPvrYJragyHHBoCyJkQAvD_BwE'
     },
     {
         day: '9/29',
         date: "2023-09-29",
         image: '/img/september/zombieland-arsley.jpg',
         event: 'Zombieland and Ghostbusters Playing at Arlsey Retro Cinema from 9/29 to 10/5',
-        weekday: 'Friday'
+        weekday: 'Friday',
+        link: 'https://www.fandango.com/ayrsley-grand-cinemas-aaudh/theater-page?format=all&date=2023-09-29'
     },
     {
         day: '9/30',
         date: "2023-09-30",
         image: '/img/september/food-truck.jpg',
-        event: 'Charlotte Veg Fest',
-        weekday: 'Saturday'
+        event: 'Charlotte Veg Fest at Camp North End 12PM-8PM',
+        weekday: 'Saturday',
+        link: 'https://www.charlottevegfest.com/'
     },
 
 ]
@@ -106,14 +117,14 @@ export const october = [
   
 
     {
-        day: '10//1',
+        day: '10/1',
         date: "2023-10-01",
         image: '/img/october/hike.jpg',
-        event: 'Sol Siesta, Hiking, and Apple Picking',
+        event: 'Get outside, and enjoy the crisp autumn air',
         weekday: 'Sunday'
     },  
     {
-        day: '10//2',
+        day: '10/2',
         date: "2023-10-02",
         image: '/img/october/halloween-cold-brew.jpg',
         event: 'Mondays Deserve Coffee',
@@ -138,21 +149,23 @@ export const october = [
         date: "2023-10-05",
         image: '/img/october/ghostbusters-arsley.jpg',
         event: 'Last Day for Ghostbusters and Zombieland at Arlsey Cinema',
-        weekday: 'Thursday'
+        weekday: 'Thursday',
+        link: 'https://www.fandango.com/ayrsley-grand-cinemas-aaudh/theater-page?format=all&date=2023-10-05'
     },
     {
         day: '10/6',
         date: "2023-10-06",
         image: '/img/october/scary-clown.jpg',
-        event: 'Scarowinds',
-        weekday: 'Did I scare you?'
+        event: 'BOO!',
+        weekday: 'Friday'
     },
     {
         day: '10/7',
         date: "2023-10-07",
         image: '/img/october/haunted-amusement-park.jpg',
-        event: 'Scarowinds 7pm-Midnight',
-        weekday: 'Saturday'
+        event: 'Scarowinds 7PM-12AM Sep 15th-Oct 29',
+        weekday: 'Saturday',
+        link: 'https://www.carowinds.com/events/scarowinds/calendar'
     },
     {
         day: '10/8',
@@ -186,14 +199,15 @@ export const october = [
         day: '10/12',
         date: "2023-10-12",
         image: '/img/october/nightmare-before-xmas.jpg',
-        event: 'Camp Northend: Nightmare Before Christmas',
-        weekday: 'Thursday'
+        event: 'Camp Northend Crossroads Cinema: Nightmare Before Christmas 8PM-10PM',
+        weekday: 'Thursday',
+        link: 'https://camp.nc/events/crossroads-cinema-the-nightmare-before-christmas/'
     },
     {
         day: '10/13',
         date: "2023-10-13",
         image: '/img/october/friday-the-13th.jpg',
-        event: 'Better watch out: Friday the 13th',
+        event: 'Better watch out: today is Friday the 13th',
         weekday: 'Friday'
     },
     {
@@ -201,13 +215,14 @@ export const october = [
         date: "2023-10-14",
         image: '/img/october/hike.jpg',
         event: 'Whitewater Center Boat Building Competition',
-        weekday: 'Saturday'
+        weekday: 'Saturday',
+        link: 'https://center.whitewater.org/race/build-your-own-boat-competition/'
     },
     {
         day: '10/15',
         date: "2023-10-15",
         image: '/img/october/uncle-fester.jpg',
-        event: `"We Gladly feast on those who would subdue us" - Adams Family Creed`,
+        event: `"We Gladly feast on those who would subdue us" - Adams Family`,
         weekday: 'Sunday'
     },
     {
@@ -220,8 +235,8 @@ export const october = [
     {
         day: '10/17',
         date: "2023-10-17",
-        image: '/img/october/harry-potter-train.jpg',
-        event: 'If you start now you can finish all the Harry Potter movies before Halloween',
+        image: '/img/october/spider.jpg',
+        event: 'Are you scared of spiders?',
         weekday: 'Tuesday'
     },
     {
@@ -235,22 +250,25 @@ export const october = [
         day: '10/19',
         date: "2023-10-19",
         image: '/img/october/cauldron.jpg',
-        event: 'Camp Northend: Hocus Pocus',
-        weekday: 'Thursday'
+        event: 'Camp Northend Crossroads Cinema: Hocus Pocus 7:30-9:30PM',
+        weekday: 'Thursday',
+        link: 'https://camp.nc/events/crossroads-cinema-hocus-pocus/'
     },
     {
         day: '10/20',
         date: "2023-10-20",
         image: '/img/october/popcorn.jpg',
         event: 'Scream and Halloween Playing at Arsley Cinema from 20-26th',
-        weekday: 'Friday'
+        weekday: 'Friday',
+        link: 'https://www.fandango.com/ayrsley-grand-cinemas-aaudh/theater-page?format=all&date=2023-10-20'
     },
     {
         day: '10/21',
         date: "2023-10-21",
         image: '/img/october/pumpkin-patch.jpg',
-        event: 'Pumpkin Picking & Scarrigan Farms',
-        weekday: 'Saturday'
+        event: 'Have you tried pumpkin picking at Scarrigan Farms?',
+        weekday: 'Saturday',
+        link: 'https://scarriganfarms.com/'
     },
     {
         day: '10/22',
@@ -277,28 +295,31 @@ export const october = [
         day: '10/25',
         date: "2023-10-25",
         image: '/img/october/cousin-it.jpg',
-        event: 'It Girl',
-        weekday: 'Wednesday'
+        event: 'Cousin It Girl',
+        weekday: 'Wednesday',
+        link: 'https://open.spotify.com/playlist/1JEGKBYwMi6m3cvfyi0eDp'
     },
     {
         day: '10/26',
         date: "2023-10-26",
         image: '/img/october/rocky-horror.jpg',
-        event: 'Camp Northend: Rocky Horror Picture Show',
-        weekday: 'Thursday'
+        event: 'Camp Northend Crossroad Cinema: Rocky Horror Picture Show',
+        weekday: 'Thursday',
+        link: 'https://www.charlotteonthecheap.com/crossroads-cinema-camp-north-end/'
     },
     {
         day: '10/27',
         date: "2023-10-27",
         image: '/img/october/apple-cider.jpg',
         event: 'Time to brew something spooktacular!',
-        weekday: 'Friday'
+        weekday: 'Friday',
+        link: 'https://www.allrecipes.com/gallery/apple-cider-cocktails/'
     },
     {
         day: '10/28',
         date: "2023-10-28",
         image: '/img/october/halloween-string-lights.jpg',
-        event: `Halloween Parties are Booming`,
+        event: `All the ghouls are out this weekend`,
         weekday: 'Saturday'
     },
     {
@@ -312,7 +333,7 @@ export const october = [
         day: '10/30',
         date: "2023-10-30",
         image: '/img/october/candy-corn.jpg',
-        event: 'Better buy candy now',
+        event: `Better buy candy now so you don't get egged...`,
         weekday: 'Monday'
     },
     {
@@ -379,7 +400,9 @@ export const november = [
     {
         day: '11/7',
         date: "2023-11-07",
-        weekday: 'Tuesday'
+        weekday: 'Tuesday',
+        event: 'Starbucks Drops Festive Beverages and Red Holiday Cups',
+        link: 'https://www.starbucks.com/ways-to-order/pickup/?gclid=CjwKCAjw6p-oBhAYEiwAgg2Pgl9qq-URyqIiFvJPhDDJTAl8vwqioNrC2K6yDcydFYPvrYJragyHHBoCyJkQAvD_BwE'
     },
     {
         day: '11/8',

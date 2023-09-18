@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400;800&display=swap');
+
 * {
   margin: 0;
   box-sizing: inherit;
+  font-family: 'Poppins', 'Times New Roman', sans-serif;
+
 }
 
 html {
@@ -189,6 +193,27 @@ html {
 .popup-details p {
   font-size: 1rem;
 }
+
+.popup-details a {
+  margin: .5rem;
+  color: black;
+}
+
+.popup-details a:hover {
+  margin: .5rem;
+  color: rgb(51,49,50);
+}
+
+.fa-x {
+  position: relative;  
+  top: -1rem;
+  right: -1rem;
+}
+
+.fa-x:hover {
+  color: #7B332F;
+}
+
 
 @media screen and (max-width: 1352px) {
   .calendar {
