@@ -10,9 +10,7 @@ html {
 }
 
 .background {
-  /* set height to fill viewport */
   height: 200vh;
-  /* set background image, no repeat, covering the whole vh, centering image, fixing image, hiding any overflow outside the viewport */
   background-image: url('/public/img/backgrounds/september-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,9 +35,7 @@ html {
 
 /* wrapping day items to a new row */
 .calendar {
-  /* margin: 5rem;
-  display: flex;
-  flex-wrap: wrap; */
+
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 10px;
@@ -207,43 +203,54 @@ html {
   }
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1025px){
   .calendar {    
-     /* margin: 0rem; */
-    margin-top: 30%;
+    margin-top: 10%;
+    gap: 0;
+    
+  }
+  .day {
+     width: 5rem;
+     height: 6rem;
+  }
+}
+
+@media screen and (max-width: 540px){
+  .calendar {    
+    margin-top: 20%;
     gap: 0;
     
   }
   .day {
      width: 2rem;
      height: 4rem;
-     /* width: .5rem; */
-     /* height: 1rem; */
-     /* margin: 1rem 0 1rem 0;  */
+     margin: 1rem 0 1rem 0; 
   }
 }
 
+
 @media screen and (max-width: 450px){
-  .calendar {    
-    padding: 0;
-    align-content: center;
-    justify-self: center;
+  .calendar {   
+    margin: 20% 1rem; 
+    gap: 1rem;
   }
   .day {
+
+     width: 80%;  
+     height: 1rem;  
      padding: 1rem;
-     width: .5rem;
-     height: .5rem;
-     margin: 1rem 0;
-     border-radius: none;
+     margin: 2rem 0.1rem; 
   }
 
   .day .front,
   .day .back {
-    border-radius: 0;
-    box-shadow: 0 0 0;
+    padding: 1.5rem;
   }
+
   .date {
-    font-size: .5rem;
+    top: 1%;
+    left: 5%;
+    font-size: 1rem;
   }
 }
   
