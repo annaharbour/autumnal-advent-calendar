@@ -23,7 +23,20 @@ function Calendar() {
   const hasPreviousMonth = currentIndex > 0;
 
   // Conditionally setting background class to gourds instead of leaves when the month is November
-  const backgroundClass = currentMonth === 'November' ? 'background-november' : 'background';
+  // const backgroundClass = currentMonth === 'November' ? 'background-november' : 'background';
+
+
+  // Conditionally set background class based on the current month
+  let backgroundClass = 'background'; // Default background class
+  let cardFront = 'front-image'; // Default card front class
+
+  if (currentMonth === 'November') {
+    backgroundClass = 'background-november'; // November background
+    cardFront = 'front-image'; // Card front for November
+  } else if (currentMonth === 'December') {
+    backgroundClass = 'christmas-back'; // December background
+    cardFront = 'present-card'; // Card front for December
+  }  
 
   // Group the days by day of the week
   const daysByWeekday = {
@@ -75,7 +88,7 @@ function Calendar() {
             {months[currentMonth]
               .filter((day) => day.weekday === dayOfWeek)
               .map((day) => (
-                <Day key={day.date} day={day} />
+                <Day key={day.date} day={day} cardFront={cardFront}/>
               ))}
           </div>
         ))}

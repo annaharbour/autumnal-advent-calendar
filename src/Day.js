@@ -3,7 +3,7 @@ import Popup from './Popup';
 
 
 // Passing day from Calendar where we're mapping through the days array
-function Day({day}){
+function Day({day, cardFront}){
   const [isFlipped, setIsFlipped] = useState(false);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
@@ -26,7 +26,7 @@ function Day({day}){
     // Rendering the day
     <div>
     <div className={`day ${isFlipped? 'flipped' : ''}`} onClick={flipCard}>
-      <div className='front'>
+      <div className={`front ${cardFront}`}>
         <span className='date'>{day.day}</span>
       </div>
       <div className='back' style={{backgroundImage: `url(${image})`}}>

@@ -33,6 +33,16 @@ html {
   overflow: hidden; 
 }
 
+.christmas-back {
+  height: 200vh;
+  background-image: url('/public/img/backgrounds/christmas-back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  overflow: hidden; 
+}
+
 
 
 /* wrapping day items to a new row */
@@ -68,6 +78,14 @@ html {
   opacity: 0.5
 }
 
+.week {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .day-name {
   font-family: 'Croissant One', cursive;
   display: flex;
@@ -91,7 +109,11 @@ font-size: 1.5rem;
   cursor: pointer;
 }
 
-.day .front {
+.present-card {
+  background-image: url(/public/img/card-fronts/present-card.jpg);
+}
+
+.day .front-image {
   background-image: url('/public/img/card-fronts/yellow-leaf.jpg');
 }
 
