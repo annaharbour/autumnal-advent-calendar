@@ -388,7 +388,8 @@ export const november = [
         day: '11/3',
         date: "2023-11-03",
         weekday: 'Friday',
-        image: '/img/november/pumpkin-soup.jpg'
+        
+        image: '/img/november/volleyball-fall.jpg'
 
     },
     {
@@ -426,8 +427,9 @@ export const november = [
         day: '11/8',
         date: "2023-11-08",
         weekday: 'Wednesday',
-        event: `Women's Night at Coyote Joes`,
-        image: '/img/november/cowboy-boots.jpg'
+        event: `Ladies Night at Coyote Joes`,
+        image: '/img/november/cowboy-boots.jpg',
+        link: 'https://coyote-joes.com/about'
     },
     {
         day: '11/9',
@@ -441,7 +443,7 @@ export const november = [
         day: '11/10',
         date: "2023-11-10",
         weekday: 'Friday',
-        image: '/img/november/volleyball-fall.jpg'
+        image: '/img/november/pumpkin-soup.jpg'
         
     },
     {
@@ -587,197 +589,257 @@ export const november = [
         day: '11/30',
         date: "2023-11-30",
         weekday: 'Thursday',
-        image: '/img/november/november-calendar.jpg',
-        event: 'Tis the season'
+        image: '/img/november/snow-tubing.jpg',
+        event: 'Light the Knights Has Begun! 5-10PM'
         
     }
 ]
 
 export const december = [
     {
+        day: '11/26',
+        date: "2023-11-26",
+        weekday: 'Sunday',
+        event: 'Let the holiday traveler frenzy ensue',
+        image: '/img/november/snowy-road.jpg'
+    },
+    {
+        day: '11/27',
+        date: "2023-11-27",
+        weekday: 'Monday',
+        event: 'Cyber Monday',
+        image: '/img/november/cyber-monday.jpg'
+    },
+    {
+        day: '11/28',
+        date: "2023-11-28",
+        weekday: 'Tuesday',
+        event: 'Officially acceptable to listen to christmas music',
+        link: 'https://open.spotify.com/playlist/78AqbJGMurc3yd9itr8aA6',
+        image: '/img/november/christmas-dog.jpg'
+    },
+    {
+        day: '11/29',
+        date: "2023-11-29",
+        weekday: 'Wednesday',
+        image: '/img/november/christmas-planner.jpg'
+    },
+    {
+        day: '11/30',
+        date: "2023-11-30",
+        weekday: 'Thursday',
+        image: '/img/november/snow-tubing.jpg',
+        event: 'Light the Knights 5-10PM'
+        
+    },
+    {
         day: '1',
-        date: "10/01",
-        image: '/img/december/.jpg',
-        event: ''
+        date: "12/01",
+        weekday: 'Friday',
+        image: '/img/december/charlotte-snowy.jpg',
+        event: 'Light the Knights 5-10PM Thursdays and Fridays'
     },
     {
         day: '2',
-        date: "10/02",
-        image: '/img/december/.jpg',
-        event: ''
+        date: "12/02",
+        weekday: 'Saturday',
+        image: '/img/december/globe-tree.jpg',
+        event: 'Light the Knights 12-10PM on Saturdays'
     },
     {
         day: '3',
-        date: "10/03",
-        image: '/img/december/.jpg',
-        event: ''
+        date: "12/03",
+        weekday: 'Sunday',
+        image: '/img/december/christmas-present.jpg',
+        event: 'Mistletoe Market at Camp Northend every Sunday',
+        link: 'https://camp.nc/events/mistletoe-market-2022/'
     },
     {
         day: '4',
-        date: "10/04",
-        image: '/img/december/ .jpg',
-        event: ''
+        date: "12/04",
+        weekday: 'Monday',
+        image: '/img/december/hotcocoa.jpg',
+        event: 'Have a warm drink'
     },
     {
         day: '5',
-        date: "10/05",
-        image: '/img/december/.jpg',
-        event: ''
+        date: "12/05",
+        weekday: 'Tuesday',
+        image: '/img/december/gingerbread-house.jpg',
     },
     {
         day: '6',
-        date: "10/06",
-        image: '/img/december/.jpg',
-        event: ''
+        date: "12/06",
+        weekday: 'Wednesday',
+        image: '/img/december/eggnog.jpg',
     },
     {
         day: '7',
-        date: "10/07",
-        image: '/img/december/.jpg',
-        event: ''
+        date: "12/07",
+        weekday: 'Thursday',
+        image: '/img/december/hannukah.jpg',
+        event: 'Hanukkah Begins'
     },
     {
         day: '8',
-        date: "10/08",
-        image: '/img/december/.jpg',
-        event: ''
+        date: "12/08",
+        weekday: 'Friday',
+        image: '/img/december/nutcracker.jpg',
+        event: 'Get your tickets for the Nutcracker at Belk Theatre'
     },
     {
         day: '9',
-        date: "10/09",
-        image: '/img/december.jpg',
-        event: ''
+        date: "12/09",
+        weekday: 'Saturday',
+        image: '/img/december/jingle-bell-run.jpg',
+        event: 'Jingle Bell Run 5k',
+        link: 'https://runsignup.com/Race/NC/Charlotte/JingleBellRunCharlotte'
     },
     {
         day: '10',
-        date: "10/10",
-        image: '/img/december.jpg',
-        event: ''
+        date: "12/10",
+        weekday: 'Sunday',
+        event: 'Time to get a Christmas Tree',
+        image: '/img/december/tree-farm.jpg',
+        link: 'https://www.trees.com/christmas-trees/farms-in-charlotte-nc'
     },
     {
         day: '11',
-        date: "10/11",
-        image: '/img/december.jpg',
-        event: 'Scary Movi'
+        date: "12/11",
+        weekday: 'Monday',
+        image: '/img/december/gingerbread.jpg',
     },
     {
         day: '12',
-        date: "10/12",
-        image: '/img/december.jpg',
-        event: ''
+        date: "12/12",
+        weekday: 'Tuesday',
+        image: '/img/december/eggnog.jpg',
     },
     {
         day: '13',
-        date: "10/13",
-        image: '/img/december/.jpg',
-        event: ''
+        date: "12/13",
+        weekday: 'Wednesday',
+        image: '/img/december/christmas-presents.jpg',
     },
     {
         day: '14',
-        date: "10/14",
-        image: '/img/december/.jpg',
-        event: ''
+        date: "12/14",
+        weekday: 'Thursday',
+        image: '/img/december/christmas-macaroons.jpg',
+        event: 'Check out Amelies holiday macaroons'
     },
     {
         day: '15',
-        date: "10/15",
-        image: '/img/december/.jpg',
-        event: 'Spooky Movie night?'
+        date: "12/15",
+        weekday: 'Friday',
+        image: '/img/december/reindeer-dog.jpg',
+        event: 'Hannukah Ends'
     },
     {
         day: '16',
-        date: "10/16",
-        image: '/img/december/.jpg',
-        event: ''
+        date: "12/16",
+        weekday: 'Saturday',
+        image: '/img/december/xmas-market.jpg',
+        event: `MistleToe Market every Saturday in Camp North End`
     },
     {
         day: '17',
-        date: "10/17",
-        image: '/img/december/.jpg',
-        event: 'Harry Potter Movie Night?'
+        date: "12/17",
+        weekday: 'Sunday',
+        image: '/img/december/present-wrapped.jpg',
     },
     {
         day: '18',
-        date: "10/18",
-        image: '/img/december/.jpg',
-        event: 'Check out Amelies Fall Menu'
+        date: "12/18",
+        weekday: 'Monday',
+        image: '/img/december/santa-letter.jpg',
+        event: 'Light the Knights New Hours: 12-10PM Every Day',
+        link: 'https://www.milb.com/charlotte-knights/ballpark/christmas'
     },
     {
         day: '19',
-        date: "10/19",
-        image: '/img/december/.jpg',
-        event: 'Camp Northend: Hocus Pocus'
+        date: "12/19",
+        weekday: 'Tuesday',
+        image: '/img/december/christmas-cards.jpg',
+        event: 'Mail out your christmas cards'
+        
     },
     {
         day: '20',
-        date: "10/20",
-        image: '/img/october/ .jpg',
-        event: 'Scream and Halloween Playing at Arsley Cinema from 20-26th'
+        date: "12/20",
+        weekday: 'Wednesday',
+        image: '/img/december/christmas-chocolate.jpg',
     },
     {
         day: '21',
-        date: "10/21",
-        image: '/img/october/pumpkin-patch.jpg',
-        event: 'Pumpkin Picking & Scarrigan Farms'
+        date: "12/21",
+        weekday: 'Thursday',
+        image: '/img/december/christmas-cheeseboard.jpg',
     },
     {
         day: '22',
-        date: "10/22",
-        image: '/img/october/jack-o-lantern.jpg',
-        event: 'Pumpkin Carving and Movie Night'
+        date: "12/22",
+        weekday: 'Friday',
+        image: '/img/december/gingerbread-house.jpg',
     },
     {
         day: '23',
-        date: "10/23",
-        image: '/img/october/headless-barista.jpg',
-        event: 'Mondays deserve coffee'
+        date: "12/23",
+        weekday: 'Saturday',
+        image: '/img/december/christmas-cup.jpg',
+        
     },
     {
         day: '24',
-        date: "10/24",
-        image: '/img/october/black-cat.jpg',
-        event: ''
+        date: "12/24",
+        weekday: 'Sunday',
+        image: '/img/december/christmas-wreath.jpg',
+        event: 'Christmas Eve'
     },
     {
         day: '25',
-        date: "10/25",
-        image: '/img/october/cousin-it.jpg',
-        event: ''
+        date: "12/25",
+        weekday: 'Monday',
+        image: '/img/december/santa.jpg',
+        event: 'Christmas Day'
     },
     {
         day: '26',
-        date: "10/26",
-        image: '/img/october/rocky-horror.jpg',
-        event: 'Camp Northend: Rocky Horror Picture Show'
+        date: "12/26",
+        weekday: 'Tuesday',
+        image: '/img/december/charlotte-snowy.jpg',
     },
     {
         day: '27',
-        date: "10/27",
-        image: '/img/october/apple-cider.jpg',
-        event: 'Make your dish or drink for the party!'
+        date: "12/27",
+        weekday: 'Wednesday',
+        image: '/img/december/winter-market.jpg',
+        event: 'Farmers Market at Camp North End Every Week'
+        
     },
     {
         day: '28',
-        date: "10/28",
-        image: '/img/october/halloween-string-lights.jpg',
-        event: `Sophia's Halloween Party`
+        date: "12/28",
+        weekday: 'Thursday',
+        image: '/img/december/ice-skates.jpg',
     },
     {
         day: '29',
-        date: "10/29",
-        image: '/img/october/dog-ghost.jpg',
-        event: ''
+        date: "12/29",
+        weekday: 'Friday',
+        image: '/img/december/all-is-well.jpg'
     },
     {
         day: '30',
-        date: "10/30",
-        image: '/img/october/candy-corn.jpg',
-        event: 'Better buy candy'
+        date: "12/30",
+        weekday: 'Saturday',
+        image: '/img/december/mulled-wine.jpg',
     },
     {
         day: '31',
-        date: "10/31",
-        image: '/img/october/trick-or-treater.jpg',
-        event: 'Trick or treat!'
+        date: "12/31",
+        weekday: 'Sunday',
+        image: '/img/december/new-year.jpg',
+        event: 'Happy New Year!'
     }
 ]
