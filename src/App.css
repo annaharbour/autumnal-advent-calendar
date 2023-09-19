@@ -365,6 +365,11 @@ html {
   width: 13rem;
   height: 10rem;
   padding: 1.5rem;
-  margin-top: -1rem;
+  line-height: 1.2rem;
 }
+
+.popup-details h2 {
+  margin-bottom: .5rem;
+}
+
 }
