@@ -5,7 +5,7 @@ export const september = [
         day: '9/17',
         date: "2023-09-17",
         image: '/img/september/octoberfest.jpg',
-        event: 'Celebrate Octoberfest weekends in Sept-Oct at Olde Meck, Sugar Creek, and Gilde',
+        event: 'Celebrate Octoberfest',
         weekday: 'Sunday',
         link: 'https://www.charlotteonthecheap.com/oktoberfest-charlotte/'
     },
@@ -13,7 +13,7 @@ export const september = [
         day: '9/18',
         date: "2023-09-18",
         image: '/img/september/spiderman.jpg',
-        event: 'Marvel: Universe of Super Heroes will be at Discovery Place the rest of September',
+        event: 'Marvel: Universe of Super Heroes is at Discovery Place',
         weekday: 'Monday',
         link: 'https://discoveryplace.org/things-to-do/exhibitions/marvel-universe-of-super-heroes/'
     },
@@ -21,7 +21,7 @@ export const september = [
         day: '9/19',
         date: "2023-09-19",
         image: '/img/september/internationart.jpg',
-        event: 'Charlotte International Art Festival continues through October 8th',
+        event: 'Charlotte International Art Festival Through October 8th',
         weekday: 'Tuesday',
         link: 'https://www.charlotteartsfest.com/?gclid=CjwKCAjw6p-oBhAYEiwAgg2PglXGVbZBkyejtkGXz0PHrEqvX1t945fEXnoI_n9NNf0via86sO8CZBoCzkYQAvD_BwE'
     },
