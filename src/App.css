@@ -331,13 +331,15 @@ html {
     width: 100%;
     height: 100%; /* Ensure both html and body take up 100% height */
     margin: 0; /* Reset margin to remove any default spacing */
+    padding: 0;
   }
 
   .background-september,
   .background-november,
   .christmas-back {
     /* Update background images to cover the entire viewport */
-    background-size: 100% 100%;
+    background-size: cover;
+    overflow: hidden;
   }
 
   .calendar {
