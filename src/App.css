@@ -310,12 +310,12 @@ html {
   
 
 
-@media screen and (max-width: 9501025px) and (orientation: landscape) {
+@media screen and (max-width: 1025px) and (orientation: landscape) {
   html, body {
     flex-direction: row;
     overflow-x: hidden;
     background-color: #333;
-    width: 150vw; 
+    width: 100%; 
 
   }
 
