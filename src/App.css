@@ -308,3 +308,59 @@ html {
 }
   
   
+
+
+@media screen and (max-width: 9501025px) and (orientation: landscape) {
+  body {
+    flex-direction: row;
+  }
+
+  .calendar {   
+    margin: 1rem 1rem; 
+    gap: 0rem;
+  }
+
+  .popup-content {
+    position: absolute;
+    width: 20rem;
+    height: 10rem; 
+    top: 1rem;
+  }
+
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(222,172,111, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+
+  
+  .close-button {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .popup-image {
+    padding: 2rem;
+    width: 13rem;
+    height: 10rem;
+}
+
+
+.popup-details {
+  width: 13rem;
+  height: 10rem;
+  padding: 1.5rem;
+  margin-top: -1rem;
+}
+}
