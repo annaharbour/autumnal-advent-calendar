@@ -635,7 +635,7 @@ export const december = [
     },
     {
         day: '12/01',
-        date: "12/01",
+        date: "2023-12-01",
         weekday: 'Friday',
         image: '/img/december/christmas-market.jpg',
         event: 'Light the Knights 5-10PM Thursdays and Fridays',
@@ -643,7 +643,7 @@ export const december = [
     },
     {
         day: '12/02',
-        date: "12/02",
+        date: "2023-12-02",
         weekday: 'Saturday',
         image: '/img/december/globe-tree.jpg',
         event: 'Light the Knights 12-10PM on Saturdays',
@@ -651,7 +651,7 @@ export const december = [
     },
     {
         day: '12/03',
-        date: "12/03",
+        date: "2023-12-03",
         weekday: 'Sunday',
         event: 'Time to get a Christmas Tree',
         image: '/img/december/tree-farm.jpg',
@@ -659,34 +659,34 @@ export const december = [
     },
     {
         day: '12/04',
-        date: "12/04",
+        date: "2023-12-04",
         weekday: 'Monday',
         image: '/img/december/hotcocoa.jpg',
         event: 'Have a warm drink'
     },
     {
         day: '12/05',
-        date: "12/05",
+        date: "2023-12-05",
         weekday: 'Tuesday',
         image: '/img/december/gingerbread-house.jpg',
     },
     {
         day: '12/06',
-        date: "12/06",
+        date: "2023-12-06",
         weekday: 'Wednesday',
         image: '/img/december/christmas-ornament.jpg',
         event: 'Time to get out the decorations'
     },
     {
         day: '12/07',
-        date: "12/07",
+        date: "2023-12-07",
         weekday: 'Thursday',
         image: '/img/december/hannukah.jpg',
         event: 'Hanukkah Begins'
     },
     {
         day: '12/8',
-        date: "12/08",
+        date: "2023-12-08",
         weekday: 'Friday',
         image: '/img/december/the-nutcracker.jpg',
         event: 'Get your tickets for the Nutcracker at Belk Theatre',
@@ -694,7 +694,7 @@ export const december = [
     },
     {
         day: '12/09',
-        date: "12/09",
+        date: "2023-12-09",
         weekday: 'Saturday',
         image: '/img/december/jingle-bell-run.jpg',
         event: 'Jingle Bell Run 5k',
@@ -702,46 +702,46 @@ export const december = [
     },
     {
         day: '12/10',
-        date: "12/10",
+        date: "2023-12-10",
         weekday: 'Sunday',
         image: '/img/december/christmas-present.jpg',
     },
     {
         day: '12/11',
-        date: "12/11",
+        date: "2023-12-11",
         weekday: 'Monday',
         image: '/img/december/gingerbread.jpg',
     },
     {
         day: '12/12',
-        date: "12/12",
+        date: "2023-12-12",
         weekday: 'Tuesday',
         image: '/img/december/eggnog.jpg',
         link: 'https://www.foodnetwork.com/recipes/alton-brown/eggnog-recipe2-2013745'
     },
     {
         day: '12/13',
-        date: "12/13",
+        date: "2023-12-11",
         weekday: 'Wednesday',
         image: '/img/december/christmas-presents.jpg',
     },
     {
         day: '12/14',
-        date: "12/14",
+        date: "2023-12-14",
         weekday: 'Thursday',
         image: '/img/december/christmas-macaroons.jpg',
         event: 'Check out Amelies holiday macaroons'
     },
     {
         day: '12/15',
-        date: "12/15",
+        date: "2023-12-15",
         weekday: 'Friday',
         image: '/img/december/reindeer-dog.jpg',
         event: 'Hannukah Ends'
     },
     {
         day: '12/16',
-        date: "12/16",
+        date: "2023-12-16",
         weekday: 'Saturday',
         image: '/img/december/xmas-market.jpg',
         event: `MistleToe Market every Saturday in Camp North End`,
@@ -749,13 +749,13 @@ export const december = [
     },
     {
         day: '12/17',
-        date: "12/17",
+        date: "2023-12-17",
         weekday: 'Sunday',
         image: '/img/december/present-wrapped.jpg',
     },
     {
         day: '12/18',
-        date: "12/18",
+        date: "2023-12-18",
         weekday: 'Monday',
         image: '/img/december/santa-letter.jpg',
         event: 'Light the Knights New Hours: 12-10PM Every Day',
@@ -763,7 +763,7 @@ export const december = [
     },
     {
         day: '12/19',
-        date: "12/19",
+        date: "2023-12-19",
         weekday: 'Tuesday',
         image: '/img/december/christmas-cards.jpg',
         event: 'Mail out your christmas cards'
@@ -771,25 +771,25 @@ export const december = [
     },
     {
         day: '12/20',
-        date: "12/20",
+        date: "2023-12-20",
         weekday: 'Wednesday',
         image: '/img/december/christmas-chocolate.jpg',
     },
     {
         day: '12/21',
-        date: "12/21",
+        date: "2023-12-21",
         weekday: 'Thursday',
         image: '/img/december/christmas-cheeseboard.jpg',
     },
     {
         day: '12/22',
-        date: "12/22",
+        date: "2023-12-22",
         weekday: 'Friday',
         image: '/img/december/gingerbread-house.jpg',
     },
     {
         day: '12/23',
-        date: "12/23",
+        date: "2023-12-23",
         weekday: 'Saturday',
         image: '/img/december/christmas-cup.jpg',
         event: `MistleToe Market every Saturday in Camp North End`
@@ -798,27 +798,27 @@ export const december = [
     },
     {
         day: '12/24',
-        date: "12/24",
+        date: "2023-12-24",
         weekday: 'Sunday',
         image: '/img/december/christmas-wreath.jpg',
         event: 'Christmas Eve'
     },
     {
         day: '12/25',
-        date: "12/25",
+        date: "2023-12-25",
         weekday: 'Monday',
         image: '/img/december/santa.jpg',
         event: 'Christmas Day'
     },
     {
         day: '12/26',
-        date: "12/26",
+        date: "2023-12-26",
         weekday: 'Tuesday',
         image: '/img/december/charlotte-snowy.jpg',
     },
     {
-        day: '27',
-        date: "12/27",
+        day: '12/27',
+        date: "2023-12-27",
         weekday: 'Wednesday',
         image: '/img/december/winter-market.jpg',
         event: 'Farmers Market at Camp North End Every Week'
@@ -826,26 +826,26 @@ export const december = [
     },
     {
         day: '12/28',
-        date: "12/28",
+        date: "2023-12-28",
         weekday: 'Thursday',
         image: '/img/december/ice-skates.jpg',
     },
     {
         day: '12/29',
-        date: "12/29",
+        date: "2023-12-29",
         weekday: 'Friday',
         image: '/img/december/all-is-well.jpg'
     },
     {
         day: '12/30',
-        date: "12/30",
+        date: "2023-12-30",
         weekday: 'Saturday',
         image: '/img/december/mulled-wine.jpg',
 
     },
     {
         day: '12/31',
-        date: "12/31",
+        date: "2023-12-31",
         weekday: 'Sunday',
         image: '/img/december/new-year.jpg',
         event: 'Happy New Year!'
