@@ -311,41 +311,17 @@ html {
 
 
 @media screen and (max-width: 1025px) and (orientation: landscape) {
-  /* html, body {
-    flex-direction: row;
-    overflow-x: hidden;
-    background-color: #333;
-    width: 100%; 
-
+  .background-november,
+  .background-september,
+  .christmas-back {
+    margin: 0;
+    padding: 0;
   }
 
   .calendar {   
     margin: 1rem 1rem; 
     gap: 0rem;
-  } */
-
-  html, body {
-    flex-direction: row;
-    overflow-x: hidden;
-    background-color: #333;
-    width: 100%;
-    height: 100%; /* Ensure both html and body take up 100% height */
-    margin: 0; /* Reset margin to remove any default spacing */
-    padding: 0;
-  }
-
-  .background-september,
-  .background-november,
-  .christmas-back {
-    /* Update background images to cover the entire viewport */
-    background-size: cover;
-    overflow: hidden;
-  }
-
-  .calendar {
-    margin: 1rem; /* Adjust margin as needed */
-    gap: 0rem;
-  }
+  } 
 
   .popup-content {
     position: absolute;
