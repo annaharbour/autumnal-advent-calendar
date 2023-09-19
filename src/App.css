@@ -256,11 +256,16 @@ html {
   color: #7B332F;
 }
 
+@media screen and (max-width: 3500px) {
+  .calendar {
+    gap: 0;
+  }
+}
+
 
 @media screen and (max-width: 1352px) {
   .calendar {
     margin-top: 10%;
-    gap: 0;
   }
 
   .day {
