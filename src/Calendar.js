@@ -37,7 +37,7 @@ function Calendar() {
     backgroundClass = 'background-november'; // November background
     cardFront = 'front-image'; // Card front for November
   } else if (currentMonth === 'December') {
-    backgroundClass = 'background-december'; // December background
+    backgroundClass = 'christmas-back'; // December background
     cardFront = 'present-card'; // Card front for December
   }  
 

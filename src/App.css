@@ -33,9 +33,9 @@ html {
   overflow: hidden; 
 }
 
-.background-december {
+.christmas-back {
   height: 200vh;
-  background-image: url('/public/img/backgrounds/december-background.jpg');
+  background-image: url('/public/img/backgrounds/christmas-back.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
