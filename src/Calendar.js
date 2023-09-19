@@ -29,6 +29,8 @@ function Calendar() {
   // Conditionally set background class based on the current month
   let backgroundClass = ''; // Default background class
   let cardFront = ''; // Default card front class
+  let weekColor = 'black';
+  let monthColor = '';
 
   if(currentMonth ==='September' || currentMonth === 'October'){
     backgroundClass = 'background-september';
@@ -39,6 +41,8 @@ function Calendar() {
   } else if (currentMonth === 'December') {
     backgroundClass = 'christmas-back'; // December background
     cardFront = 'present-card'; // Card front for December
+    weekColor = 'weekColor';
+    monthColor = 'month-color';
   }  
 
   // Group the days by day of the week
@@ -70,22 +74,22 @@ function Calendar() {
           className={`next ${!hasPreviousMonth ? 'disabled' : ''}`}
           onClick={() => hasPreviousMonth && changeMonth(monthKeys[currentIndex - 1])}
         >
-          <i className="fa-solid fa-caret-left"></i>
+          <i className={`${monthColor} fa-solid fa-caret-left`}></i>
         </button>
         {/* Current Month Header */}
-        <h1>{currentMonth}</h1>
+        <h1 className={monthColor}>{currentMonth}</h1>
         {/* Next Month Button */}
         <button
-          className={`next ${!hasNextMonth ? 'disabled' : ''}`}
+          className={`next  ${!hasNextMonth ? 'disabled' : ''}`}
           onClick={() => hasNextMonth && changeMonth(monthKeys[currentIndex + 1])}
         >
-          <i className="fa-solid fa-caret-right"></i>
+          <i className={`${monthColor} fa-solid fa-caret-right`}></i>
         </button>
       </div>
       <div className='calendar'>
         {daysOfWeek.map((dayOfWeek) => (
           <div className='week' key={dayOfWeek}>
-            <div className='day-name'>
+            <div className={`day-name ${weekColor}`}>
               {dayOfWeek.slice(0, 1)} {/* Display the first character */}
             </div>
             {months[currentMonth]
