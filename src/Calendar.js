@@ -22,10 +22,6 @@ function Calendar() {
   const hasNextMonth = currentIndex < monthKeys.length - 1;
   const hasPreviousMonth = currentIndex > 0;
 
-  // Conditionally setting background class to gourds instead of leaves when the month is November
-  // const backgroundClass = currentMonth === 'November' ? 'background-november' : 'background';
-
-
   // Conditionally set background class based on the current month
   let backgroundClass = ''; // Default background class
   let cardFront = ''; // Default card front class
