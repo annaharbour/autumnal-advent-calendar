@@ -235,8 +235,8 @@ export const october = [
     {
         day: '10/17',
         date: "2023-10-17",
-        image: '/img/october/spider.jpg',
-        event: 'Are you scared of spiders?',
+        image: '/img/october/black-cat.jpg',
+        event: 'Bad Luck',
         weekday: 'Tuesday'
     },
     {
@@ -289,9 +289,10 @@ export const october = [
     {
         day: '10/24',
         date: "2023-10-24",
-        image: '/img/october/black-cat.jpg',
-        event: 'Bad Luck',
-        weekday: 'Tuesday'
+        image: '/img/october/autumn-park.jpg',
+        event: 'Halloween Run',
+        weekday: 'Tuesday',
+        link: 'https://www.facebook.com/events/655478529656350'
     },
     {
         day: '10/25',

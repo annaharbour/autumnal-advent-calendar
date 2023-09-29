@@ -1,15 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Day from './Day';
 import { september, october, november, december } from './days';
 
 function Calendar() {
   const [currentMonth, setCurrentMonth] = useState('September');
+
   const months = {
     September: september,
     October: october,
     November: november,
     December: december
   };
+
+  function getCurrentMonth() {
+    const currentDate = new Date();
+    const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    return monthNames[currentDate.getMonth()];
+  }
+
+  useEffect(() => {
+    setCurrentMonth(getCurrentMonth());
+  }, []);
 
   // Setting new month when button is pressed
   const changeMonth = (newMonth) => {
